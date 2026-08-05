@@ -13,9 +13,9 @@ public class Activity7 {
         String username = email;
         System.out.println(username.substring(0,atPoint));
     
-        
-        System.out.println(useranme);
-        System.out.println(domain);
+
+        System.out.println("useranme");
+        System.out.println("domain");
 
         
     }
