@@ -18,18 +18,18 @@ public class Lesson10 {
 
 
 
-        System.out.println("please enter your age");
-        int age = scn.nextInt();
+        // System.out.println("please enter your age");
+        // int age = scn.nextInt();
 
-        if(age > 18){
-            System.out.println("You are 21 or older.");
+        // if(age > 18){
+        //     System.out.println("You are 21 or older.");
 
-            if(age == 18){
-                System.out.println("You are between 18 and 20.");
-            }
-        }
+        //     if(age == 18){
+        //         System.out.println("You are between 18 and 20.");
+        //     }
+        // }
 
-        scn.close();
+        // scn.close();
 
         // System.out.println((age == 0) ? "even": "odd");
 
