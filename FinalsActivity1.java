@@ -39,7 +39,7 @@ public class FinalsActivity1 {
             parole = scn.nextLine();
                
             while(!parole.equals(password)){
-                System.out.println("Invalid Username. Please try again.");
+                System.out.println("Incorrect Password. Please try again.");
                 System.out.println("Enter Password");
                 parole = scn.nextLine();
          }
