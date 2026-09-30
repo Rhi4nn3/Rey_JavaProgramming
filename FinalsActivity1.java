@@ -27,14 +27,19 @@ public class FinalsActivity1 {
         String user = scn.nextLine();
         System.out.println("Enter Password");
         String parole = scn.nextLine();
-        
-        
+
+
+            while(!user.equals(userName) && !parole.equals(password)){
+            System.out.println("Invalid Username and. Please try again.");
+            System.out.println("Enter Username");
+            user = scn.nextLine();
+            }
+
             while(!user.equals(userName)){
                 System.out.println("Invalid Username. Please try again.");
                 System.out.println("Enter Username");
                 user = scn.nextLine();
             }
-           
             System.out.println("Enter Password");
             parole = scn.nextLine();
                
@@ -44,7 +49,7 @@ public class FinalsActivity1 {
                 parole = scn.nextLine();
          }
 
-         System.out.println("Welcome User!");
+         System.out.println("Successful login!");
     }
 
 }
