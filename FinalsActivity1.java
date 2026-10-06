@@ -23,33 +23,43 @@ public class FinalsActivity1 {
         System.out.println("==========LOGIN==========");
         
 
-        System.out.println("Enter Username");
+        System.out.println("Enter Username:");
         String user = scn.nextLine();
-        System.out.println("Enter Password");
+        System.out.println("Enter Password:");
         String parole = scn.nextLine();
 
 
             while(!user.equals(userName) && !parole.equals(password)){
-            System.out.println("Invalid Username and. Please try again.");
-            System.out.println("Enter Username");
-            user = scn.nextLine();
-            }
+                System.out.println("Invalid Username and Password. Please try again.");
+                System.out.println("Enter Username:");
+                user = scn.nextLine();
+                System.out.println("Enter Password:");
+                parole = scn.nextLine();
+        
+        }
+
+            
 
             while(!user.equals(userName)){
                 System.out.println("Invalid Username. Please try again.");
-                System.out.println("Enter Username");
+                System.out.println("Enter Username:");
                 user = scn.nextLine();
-            }
-            System.out.println("Enter Password");
-            parole = scn.nextLine();
-               
+                System.out.println("Enter Password:");
+                parole = scn.nextLine();
+        }
+
+            
             while(!parole.equals(password)){
                 System.out.println("Incorrect Password. Please try again.");
-                System.out.println("Enter Password");
+                System.out.println("Enter Username:");
+                user = scn.nextLine();
+                System.out.println("Enter Password:");
                 parole = scn.nextLine();
          }
+        
 
          System.out.println("Successful login!");
     }
-
+    
 }
+
